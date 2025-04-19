@@ -1,0 +1,66 @@
+.section2 {
+    position: relative;
+    width: 100vw;
+    padding-top: 8vw;
+    overflow: hidden;
+  }
+  
+  .section2__title {
+    margin: 0 0 4vw 5.729vw;
+    font-size: 2.917vw;
+    font-weight: 700;
+  }
+  
+  .section2__swiper-container {
+    margin-left: 5.729vw;
+    margin-bottom: 8vw;
+    overflow: hidden;
+    width: calc(100% - 5.729vw);
+  }
+  
+  .section2__swiper-container .swiper-wrapper {
+    padding-left: 5.729vw;
+  }
+  
+  .section2__slide {
+    width: 18vw;
+    flex-shrink: 0;
+  }
+  
+  .section2__card {
+    position: relative;
+  }
+  
+  .section2__card-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2.083vw;
+  }
+  
+  .section2__overlay {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 5%;
+    color: #fff;
+  }
+
+  .section2__slide:nth-child(3) .section2__overlay,
+  .section2__slide:nth-child(5) .section2__overlay {
+    color: #000;
+    text-shadow: none;
+  }
+  
+  .section2__overlay-title {
+    font-size: 0.625vw;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .section2__overlay-text {
+    font-size: 0.833vw;
+    font-weight: 700;
+    margin: 0.8vw 0 0;
+  }
+  

@@ -1,4 +1,3 @@
-// src/components/Section1.jsx
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import videoSrc from '../assets/phone_video.mp4';
